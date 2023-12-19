@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile {
+	margin-top: 20px;
+}
+
+.initials {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#photo {
+	border-radius: 50%;
+	margin-top: 10px;
+	max-width: 100%;
+}
+
+#telegram {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #0074cc;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	width: 100%;
+}
+
+.left-column,
+.right-column {
+	flex: 1;
+	max-width: 600px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.left-column {
+	margin-right: 20px;
+}
+
+.section {
+	margin: 20px;
+}
+
+.section-title {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.project {
+	margin: 20px 0;
+}
+
+.project-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+
+.project-gif {
+	max-width: 100%;
+}
+
+.description {
+	margin-top: 20px;
+}
+
+.github-link {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #0366d6;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.university {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.study-program {
+	font-size: 16px;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.current-status {
+	font-size: 18px;
+	font-weight: bold;
+	color: #007bff;
+}
+
+.certificate {
+	margin: 20px 0;
+}
+
+.certificate-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.acquired-from {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.acquired-date {
+	font-size: 16px;
+	color: #555;
+}
+
+.language-item {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.language-status {
+	font-size: 16px;
+	color: #007bff;
+}
+
+.skills-category {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.skill-item {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
